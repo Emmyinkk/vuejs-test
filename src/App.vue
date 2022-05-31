@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     addOne() {
-      this.$store.commit('increment', { value: 10});
+      this.$store.commit('increment', { value: 5});
     }
   }
 }
